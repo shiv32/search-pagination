@@ -7,7 +7,7 @@ if(strlen($search)<=1)
 echo "Search term too short";
 else{
 echo "You searched for <b>$search</b> <hr size='1'></br>";
-mysql_connect("localhost","root","priety");
+mysql_connect("localhost","root","password");
 mysql_select_db("pagi2");
     
 $search_exploded = explode (" ", $search);
